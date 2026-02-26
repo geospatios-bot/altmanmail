@@ -1,21 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  /* ChatGPT palette — dark mode */
+  /* ChatGPT 2025/2026 palette — dark mode */
   --gpt-bg: #212121;
-  --gpt-bg-secondary: #171717;
-  --gpt-bg-hover: #2f2f2f;
-  --gpt-bg-active: #343541;
   --gpt-sidebar-bg: #171717;
+  --gpt-sidebar-hover: #212121;
+  --gpt-sidebar-active: #2f2f2f;
   --gpt-text: #ececec;
   --gpt-text-secondary: #b4b4b4;
   --gpt-text-tertiary: #8e8ea0;
   --gpt-border: #2f2f2f;
-  --gpt-green: #10a37f;
-  --gpt-green-dark: #0d8a6a;
-  --gpt-bubble-user: #2f2f2f;
-  --gpt-bubble-ai: transparent;
-  --gpt-accent: #10a37f;
+  --gpt-bubble-user: #303030;
+  --gpt-input-bg: #303030;
+  --gpt-input-border: #424242;
 }
 
 html,
@@ -23,7 +20,7 @@ body {
   height: 100%;
   margin: 0;
   font-family:
-    "Söhne",
+    ui-sans-serif,
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
@@ -43,14 +40,13 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.15);
 }
 
-/* Hide horizontal scrollbar for tag pills */
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -59,13 +55,6 @@ body {
   display: none;
 }
 
-/* ChatGPT sparkle icon animation */
-@keyframes sparkle-spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Safe area for iPhone notch */
 @supports (padding: env(safe-area-inset-bottom)) {
   body {
     padding-bottom: env(safe-area-inset-bottom);
