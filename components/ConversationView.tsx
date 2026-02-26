@@ -102,13 +102,18 @@ export function ConversationView({ thread, onBack }: ConversationViewProps) {
             </span>
           </div>
 
-          {thread.messages.map((msg) => (
-            <MessageBubble
-              key={msg.id}
-              message={msg}
-              isFromAltman={msg.from === "altman"}
-            />
-          ))}
+          {thread.messages.map((msg, i) => {
+            const prev = i > 0 ? thread.messages[i - 1] : null;
+            const isConsecutive = prev !== null && prev.from === msg.from;
+            return (
+              <MessageBubble
+                key={msg.id}
+                message={msg}
+                isFromAltman={msg.from === "altman"}
+                isConsecutive={isConsecutive}
+              />
+            );
+          })}
 
           {/* Citation */}
           <div className="flex items-center justify-center mt-10 mb-4">

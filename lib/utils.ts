@@ -31,3 +31,29 @@ export function getInitials(name: string) {
     .join("")
     .toUpperCase();
 }
+
+const AVATAR_COLORS = [
+  "#E06C75", // red
+  "#61AFEF", // blue
+  "#C678DD", // purple
+  "#56B6C2", // cyan
+  "#E5C07B", // yellow
+  "#98C379", // green
+  "#D19A66", // orange
+  "#BE5046", // dark red
+  "#7C8EF2", // indigo
+  "#4EC9B0", // teal
+  "#CE9178", // salmon
+  "#B267E6", // violet
+  "#6CC644", // lime
+  "#E88B49", // tangerine
+  "#55B5DB", // sky
+];
+
+export function getAvatarColor(id: string): string {
+  let hash = 0;
+  for (let i = 0; i < id.length; i++) {
+    hash = id.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  return AVATAR_COLORS[Math.abs(hash) % AVATAR_COLORS.length];
+}

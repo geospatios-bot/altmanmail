@@ -201,6 +201,71 @@ export const people: Record<string, Person> = {
     title: "Employee",
     org: "OpenAI",
   },
+  zilis: {
+    name: "Shivon Zilis",
+    title: "Board Member / Neuralink Director",
+    org: "OpenAI / Neuralink",
+  },
+  huang: {
+    name: "Jensen Huang",
+    title: "CEO",
+    org: "NVIDIA",
+  },
+  karpathy: {
+    name: "Andrej Karpathy",
+    title: "Founding Member & Research Lead",
+    org: "OpenAI → Tesla → OpenAI",
+  },
+  kscott: {
+    name: "Kevin Scott",
+    title: "CTO",
+    org: "Microsoft",
+  },
+  birchall: {
+    name: "Jared Birchall",
+    title: "Family Office Manager",
+    org: "Musk family office",
+  },
+  bezos: {
+    name: "Jeff Bezos",
+    title: "CEO",
+    org: "Amazon",
+  },
+  iansiti: {
+    name: "Marco Iansiti",
+    title: "Professor",
+    org: "Harvard Business School",
+  },
+  taylor: {
+    name: "Bret Taylor",
+    title: "Board Chair",
+    org: "OpenAI / Sierra AI",
+  },
+  pachocki: {
+    name: "Jakub Pachocki",
+    title: "Research Director",
+    org: "OpenAI",
+  },
+  shaw: {
+    name: "Frank X. Shaw",
+    title: "VP of Communications",
+    org: "Microsoft",
+  },
+  bsmith: {
+    name: "Brad Smith",
+    title: "President",
+    org: "Microsoft",
+  },
+  hood: {
+    name: "Amy Hood",
+    title: "CFO",
+    org: "Microsoft",
+  },
+  zaremba: {
+    name: "Wojciech Zaremba",
+    title: "Co-founder & Research Lead",
+    org: "OpenAI",
+  },
   unknown: {
     name: "Unknown",
     title: "",
