@@ -5,8 +5,9 @@ import { threadsBatch3 } from "./threads-batch3";
 import { threadsBatch4 } from "./threads-batch4";
 import { threadsBatch5 } from "./threads-batch5";
 import { threadsBatch6 } from "./threads-batch6";
+import { threadsBatch7 } from "./threads-batch7";
 
-export const threads: Thread[] = [...threadsBatch1, ...threadsBatch2, ...threadsBatch3, ...threadsBatch4, ...threadsBatch5, ...threadsBatch6].sort(
+export const threads: Thread[] = [...threadsBatch1, ...threadsBatch2, ...threadsBatch3, ...threadsBatch4, ...threadsBatch5, ...threadsBatch6, ...threadsBatch7].sort(
   (a, b) => a.dateRange.start.localeCompare(b.dateRange.start)
 );
 
