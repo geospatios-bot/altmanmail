@@ -594,4 +594,190 @@ export const threadsBatch7: Thread[] = [
     exhibitSource: "TIME CEO of the Year (2023); Keach Hagey biography 'The Optimist'",
     tags: ["personal"],
   },
+
+  // ===== SCARLETT JOHANSSON — "SHOCKED, ANGERED AND IN DISBELIEF" (MAY 2024) =====
+  {
+    id: "johansson-sky-voice",
+    subject: "[Public statement — Sky voice controversy]",
+    participants: ["altman"],
+    messages: [
+      {
+        id: "jsv1",
+        from: "altman",
+        text: "[Sam Altman tweeted a single word on demo day:] her",
+        timestamp: "2024-05-13T10:00:00Z",
+        exhibitRef: "X/Twitter post (May 13, 2024)",
+      },
+      {
+        id: "jsv2",
+        from: "unknown",
+        text: "[Scarlett Johansson statement:] When I heard the released demo, I was shocked, angered and in disbelief that Mr. Altman would pursue a voice that sounded so eerily similar to mine that my closest friends and news outlets could not tell the difference.",
+        timestamp: "2024-05-20T10:00:00Z",
+        exhibitRef: "Scarlett Johansson public statement (May 20, 2024); NPR; Variety",
+      },
+      {
+        id: "jsv3",
+        from: "unknown",
+        text: "[Johansson continued:] Mr. Altman even insinuated that the similarity was intentional, tweeting a single word 'her' — a reference to the film in which I voiced a chat system, Samantha, who forms an intimate relationship with a human.",
+        timestamp: "2024-05-20T10:15:00Z",
+        exhibitRef: "Scarlett Johansson public statement (May 20, 2024)",
+      },
+      {
+        id: "jsv4",
+        from: "unknown",
+        text: "[Johansson:] Two days before the ChatGPT 4.0 demo was released, Mr. Altman contacted my agent, asking me to reconsider. Before we could connect, the system was out there.",
+        timestamp: "2024-05-20T10:30:00Z",
+        exhibitRef: "Scarlett Johansson public statement (May 20, 2024)",
+      },
+      {
+        id: "jsv5",
+        from: "altman",
+        text: "The voice of Sky is not Scarlett Johansson's, and it was never intended to resemble hers.",
+        timestamp: "2024-05-20T18:00:00Z",
+        exhibitRef: "Sam Altman public statement (May 20, 2024)",
+      },
+    ],
+    platform: "memo",
+    dateRange: { start: "2024-05-13", end: "2024-05-20" },
+    summary:
+      "Altman tweeted 'her' on demo day. One week later, Scarlett Johansson went nuclear: 'I was shocked, angered and in disbelief.' She says Altman contacted her agent two days before launch asking her to reconsider, then shipped the eerily similar voice anyway. Altman's defense: 'it was never intended to resemble hers.'",
+    exhibitSource: "Scarlett Johansson public statement (May 2024); NPR; Variety; Washington Post",
+    tags: ["personal"],
+  },
+
+  // ===== MIRA MURATI — "I'M NOT SURE" YOUTUBE TRAINING DATA (MAR 2024) =====
+  {
+    id: "murati-youtube-training-dodge",
+    subject: "[Wall Street Journal interview — Sora training data]",
+    participants: ["murati"],
+    messages: [
+      {
+        id: "myt1",
+        from: "murati",
+        text: "[On Sora's training data:] We used publicly available data and licensed data.",
+        timestamp: "2024-03-13T10:00:00Z",
+        exhibitRef: "Wall Street Journal interview (Mar 13, 2024)",
+      },
+      {
+        id: "myt2",
+        from: "unknown",
+        text: "[WSJ reporter:] What about YouTube videos specifically?",
+        timestamp: "2024-03-13T10:05:00Z",
+        exhibitRef: "Wall Street Journal interview (Mar 13, 2024)",
+      },
+      {
+        id: "myt3",
+        from: "murati",
+        text: "I'm actually not sure about that.",
+        timestamp: "2024-03-13T10:06:00Z",
+        exhibitRef: "Wall Street Journal interview (Mar 13, 2024)",
+      },
+      {
+        id: "myt4",
+        from: "unknown",
+        text: "[WSJ reporter:] What about Instagram or Facebook?",
+        timestamp: "2024-03-13T10:07:00Z",
+        exhibitRef: "Wall Street Journal interview (Mar 13, 2024)",
+      },
+      {
+        id: "myt5",
+        from: "murati",
+        text: "If they were publicly available — publicly available to use — there might be the data, but I'm not sure. I'm not confident about it.",
+        timestamp: "2024-03-13T10:08:00Z",
+        exhibitRef: "Wall Street Journal interview (Mar 13, 2024)",
+      },
+      {
+        id: "myt6",
+        from: "murati",
+        text: "I'm just not going to go into detail about the data that was used.",
+        timestamp: "2024-03-13T10:10:00Z",
+        exhibitRef: "Wall Street Journal interview (Mar 13, 2024)",
+      },
+    ],
+    platform: "memo",
+    dateRange: { start: "2024-03-13", end: "2024-03-13" },
+    summary:
+      "CTO Mira Murati's disastrous Wall Street Journal interview about Sora's training data. Asked about YouTube: 'I'm actually not sure about that.' Instagram? 'I'm not confident about it.' Final answer: 'I'm just not going to go into detail.' NYT later reported OpenAI transcribed 1M+ hours of YouTube with Whisper.",
+    exhibitSource: "Wall Street Journal interview (March 2024); NYT (April 2024); Entrepreneur",
+    tags: ["copyright"],
+  },
+
+  // ===== ALTMAN — "ROUGH VIBES" INTERNAL MEMO (NOV 2025) =====
+  {
+    id: "altman-rough-vibes-memo",
+    subject: "[Leaked internal memo — Google competition]",
+    participants: ["altman"],
+    messages: [
+      {
+        id: "arv1",
+        from: "altman",
+        text: "Google has been doing excellent work recently in every aspect.",
+        timestamp: "2025-11-15T10:00:00Z",
+        exhibitRef: "The Information (Nov 2025); Fortune; WinBuzzer",
+      },
+      {
+        id: "arv2",
+        from: "altman",
+        text: "It sucks that we have to do so many hard things at the same time, but such is our lot in life.",
+        timestamp: "2025-11-15T10:15:00Z",
+        exhibitRef: "The Information (Nov 2025); Fortune; WinBuzzer",
+      },
+      {
+        id: "arv3",
+        from: "altman",
+        text: "[On revenue growth potentially slowing to 5%:] The environment features 'rough vibes' and 'economic headwinds.' It is critically important for the majority of the research team to stay focused on achieving superintelligence.",
+        timestamp: "2025-11-15T10:30:00Z",
+        exhibitRef: "The Information (Nov 2025); Fortune; WinBuzzer",
+      },
+    ],
+    platform: "memo",
+    dateRange: { start: "2025-11-15", end: "2025-11-15" },
+    summary:
+      "Altman's leaked 'rough vibes' memo to all employees. 'Google has been doing excellent work recently in every aspect.' Revenue growth could crash to 5%. But the solution? 'Stay focused on achieving superintelligence.' Classic Altman: acknowledge the fire, then aim for the stars.",
+    exhibitSource: "The Information (November 2025); Fortune; WinBuzzer",
+    tags: ["internal-memo"],
+  },
+
+  // ===== ALTMAN SENATE TESTIMONY — KEY QUOTES (MAY 2023) =====
+  {
+    id: "altman-senate-testimony",
+    subject: "[Senate Judiciary Committee testimony]",
+    participants: ["altman", "blumenthal"],
+    messages: [
+      {
+        id: "ast1",
+        from: "altman",
+        text: "I do think some regulation would be quite wise on this topic.",
+        timestamp: "2023-05-16T10:00:00Z",
+        exhibitRef: "Senate Judiciary Committee (May 16, 2023); C-SPAN",
+      },
+      {
+        id: "ast2",
+        from: "altman",
+        text: "There will be an impact on jobs. We try to be very clear about that, and I think it'll require partnership between industry and government, but mostly action by government, to figure out how we want to mitigate that.",
+        timestamp: "2023-05-16T10:30:00Z",
+        exhibitRef: "Senate Judiciary Committee (May 16, 2023); C-SPAN",
+      },
+      {
+        id: "ast3",
+        from: "altman",
+        text: "When Photoshop came onto the scene a long time ago, for a while people were really quite fooled by photoshopped images and then pretty quickly developed an understanding that images were photoshopped. This will be like that, but on steroids.",
+        timestamp: "2023-05-16T11:00:00Z",
+        exhibitRef: "Senate Judiciary Committee (May 16, 2023); C-SPAN",
+      },
+      {
+        id: "ast4",
+        from: "altman",
+        text: "People need to know if they're talking to an AI, if content they're looking at might be generated or might not.",
+        timestamp: "2023-05-16T11:30:00Z",
+        exhibitRef: "Senate Judiciary Committee (May 16, 2023); C-SPAN",
+      },
+    ],
+    platform: "memo",
+    dateRange: { start: "2023-05-16", end: "2023-05-16" },
+    summary:
+      "Altman before the Senate, asking to be regulated. 'I do think some regulation would be quite wise.' On misinformation: 'This will be like Photoshop, but on steroids.' The humble tech CEO routine that launched a thousand memes. Two years later, no regulation has passed.",
+    exhibitSource: "Senate Judiciary Committee hearing (May 16, 2023); C-SPAN; PBS",
+    tags: ["regulation"],
+  },
 ];
