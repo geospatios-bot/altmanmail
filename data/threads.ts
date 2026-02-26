@@ -1,0 +1,18 @@
+import { Thread } from "@/types";
+import { threadsBatch1 } from "./threads-batch1";
+import { threadsBatch2 } from "./threads-batch2";
+import { threadsBatch3 } from "./threads-batch3";
+
+export const threads: Thread[] = [...threadsBatch1, ...threadsBatch2, ...threadsBatch3].sort(
+  (a, b) => a.dateRange.start.localeCompare(b.dateRange.start)
+);
+
+export function getThread(id: string): Thread | undefined {
+  return threads.find((t) => t.id === id);
+}
+
+export function getAllTags(): string[] {
+  const tagSet = new Set<string>();
+  threads.forEach((t) => t.tags?.forEach((tag) => tagSet.add(tag)));
+  return Array.from(tagSet).sort();
+}
