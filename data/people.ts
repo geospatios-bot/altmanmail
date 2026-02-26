@@ -266,6 +266,21 @@ export const people: Record<string, Person> = {
     title: "Co-founder & Research Lead",
     org: "OpenAI",
   },
+  mchen: {
+    name: "Mark Chen",
+    title: "Chief Research Officer",
+    org: "OpenAI",
+  },
+  karnofsky: {
+    name: "Holden Karnofsky",
+    title: "CEO",
+    org: "Open Philanthropy / GiveWell",
+  },
+  kwon: {
+    name: "Jason Kwon",
+    title: "General Counsel",
+    org: "OpenAI",
+  },
   unknown: {
     name: "Unknown",
     title: "",
